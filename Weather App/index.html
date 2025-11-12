@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1116/1116453.png">
+</head>
+<body>
+  <header>
+    <h1 style="color: black">🌤️ Weather Dashboard</h1>
+  </header>
+
+  <main class="container">
+    <section class="weather-input">
+      <h3>Enter a City Name</h3>
+      <div class="input-group">
+        <input class="city-input" type="text" placeholder="E.g., Chennai" />
+    </div>
+    <button class="search-btn">Search</button>
+
+    </section>
+
+    <section class="weather-data">
+      <div class="current-weather">
+        <div class="details">
+          <h4>Temp: __°C</h4>
+          <h4>Wind: __ m/s</h4>
+          <h4>Humidity: __%</h4>
+        </div>
+      </div>
+
+      <div class="days-forecast">
+        <h2>5-Day Forecast</h2>
+        <ul class="weather-cards">
+          <!-- dynamically generated via JS -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed by <strong>ARUNRAJ J</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
