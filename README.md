@@ -1,3 +1,3 @@
 Live link
 
-https://weather-app-arunraj.netlify.app
+https://weather-app-by-arunraj.netlify.app
